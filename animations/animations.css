@@ -1,0 +1,32 @@
+@keyframes firstAnimation {
+
+  /* from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  } */
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  /* animation: firstAnimation 2s 3s infinite ease alternate; */
+  animation-name: firstAnimation;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}

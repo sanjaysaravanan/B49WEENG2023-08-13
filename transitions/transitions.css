@@ -1,0 +1,51 @@
+div {
+  /* height: 100px;
+  width: 100px;
+  background-color: aqua; */
+  /* transition: width 0.5s ease, height 0.5s ease-in-out; */
+  /* transition: all 2s; */
+}
+
+
+div:hover {
+  /* height: 200px;
+  width: 200px; */
+  /* transform: scale(2); */
+  /* transform: rotateX(180deg); */
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+  /* Change color on hover */
+}
+
+
+a>div {
+  height: 2px;
+  background-color: black;
+  width: 0px;
+  transition: width 500ms;
+  float: right;
+}
+
+a:hover>div {
+  width: 100%;
+}

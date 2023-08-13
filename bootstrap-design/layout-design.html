@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <link rel='stylesheet' href='bootstrap.css' />
+  <style>
+    header {
+      height: 75px;
+    }
+
+    aside {
+      width: 240px;
+      top: 75px;
+    }
+
+    .content {
+      top: 75px;
+      left: 240px;
+      width: calc(100% - 240px);
+    }
+
+    @media screen and (max-width: 768px) {
+      aside {
+        width: 120px;
+      }
+
+      .content {
+        width: calc(100% - 120px);
+        left: 120px;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      aside {
+        /* width: 120px; */
+        display: none;
+        /* visibility: hidden; */
+      }
+
+      .content {
+        width: 100%;
+        left: 0px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-warning position-fixed top-0 start-0 w-100 z-3"></header>
+
+  <aside class="bg-primary position-fixed h-100"></aside>
+
+  <div class="position-relative content">
+    <div class="container-fluid">
+      <div class="row p-4">
+        <div class="col-12 border border-1 border-black mb-3" style="height: 250px;">
+          col-header
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-12 border border-1 border-black mb-2">
+                  <div class="m-2" style="height: 250px;">Col-1</div>
+                </div>
+                <div class="col-12 border border-1 border-black">
+                  <div class="m-2" style="height: 250px;">Col-2</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="border border-1 border-black mt-2 mt-sm-2 mt-lg-0" style="height: 500px">Col-side</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-1 col-sm-3 col-lg-4 bg-primary" style="height: 250px;"></div>
+    </div>
+  </div> -->
+
+</body>
+
+</html>

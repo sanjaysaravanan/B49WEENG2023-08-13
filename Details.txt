@@ -1,0 +1,70 @@
+
+CSS:
+
+  transitions --> transition is property to handle the transition of CSS prop values
+  
+  animations --> animation is property to handle the
+
+  bootstrap design and bootstrap css in local
+    responsive
+
+DOM Manipulation: ( Produce entire website with only JS)
+
+  What is DOM
+
+  how to access the DOM using JS
+    document in JS
+
+  script link for DOM Manipulation:
+    1. put the script inside the body
+    2. use defer attribute in script tag
+
+
+  Methods used to manipualtion of DOM:
+
+    element creation using JS
+
+    innerHTML vs innerText
+
+    setAttribute using JS
+
+    appendChild vs append
+      append:
+        takes multiple tags or elements and appends it to the calling element
+        return: undefined
+      
+      appendChild:
+        takes one single tag/element and appends it to the calling element and returns the appended child
+
+
+Task:
+  From the below Title you can pick any two and complete them with responsive design.
+
+For your reference visit this URL 
+https://github.com/rvsp/HTML-CSS/tree/master/Tasks
+
+2023-08-06 to 2023-06-12: 
+  try implementing any two design with normal Media Query Appraoch
+  Note: Not yet discussed about grid-system in bootstrap
+
+  Note down problems and dicuss in on 2023-08-12 
+
+2023-08-13 to 2023-06-17: Complete the Task 
+
+Last Submission Date: 2023-08-18
+    
+Next Session:
+
+  Style using the style prop for an element, and classlist using the stylesheet
+
+  Node/Element/Tag Selection:
+    getElementById
+    getElementByClassName
+    querySelector
+    querySelectorAll
+
+  SASS: ( Syntatically Awesome Style Sheet )
+    SCSS and compilation
+
+
+  
