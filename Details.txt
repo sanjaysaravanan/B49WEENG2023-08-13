@@ -24,7 +24,7 @@ DOM Manipulation: ( Produce entire website with only JS)
 
     element creation using JS
 
-    innerHTML vs innerText
+    innerHTML ( with parsing ) vs innerText ( without parsing )
 
     setAttribute using JS
 
